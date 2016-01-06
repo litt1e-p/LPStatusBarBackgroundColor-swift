@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C49163D1C3CC36200094C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49163C1C3CC36200094C47 /* AppDelegate.swift */; };
+		3C49163F1C3CC36200094C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49163E1C3CC36200094C47 /* ViewController.swift */; };
+		3C4916421C3CC36200094C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4916401C3CC36200094C47 /* Main.storyboard */; };
+		3C4916441C3CC36200094C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4916431C3CC36200094C47 /* Assets.xcassets */; };
+		3C4916471C3CC36200094C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4916451C3CC36200094C47 /* LaunchScreen.storyboard */; };
+		3C4916551C3CC40A00094C47 /* UINavigationBar+StatusBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4916541C3CC40A00094C47 /* UINavigationBar+StatusBarColor.swift */; };
+		3C4916571C3CC45D00094C47 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4916561C3CC45D00094C47 /* NavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C4916391C3CC36200094C47 /* LPStatusBarBackgroundColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPStatusBarBackgroundColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C49163C1C3CC36200094C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C49163E1C3CC36200094C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C4916411C3CC36200094C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4916431C3CC36200094C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4916461C3CC36200094C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4916481C3CC36200094C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4916541C3CC40A00094C47 /* UINavigationBar+StatusBarColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+StatusBarColor.swift"; sourceTree = "<group>"; };
+		3C4916561C3CC45D00094C47 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4916361C3CC36200094C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4916301C3CC36200094C47 = {
+			isa = PBXGroup;
+			children = (
+				3C49163B1C3CC36200094C47 /* LPStatusBarBackgroundColor */,
+				3C49163A1C3CC36200094C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C49163A1C3CC36200094C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4916391C3CC36200094C47 /* LPStatusBarBackgroundColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C49163B1C3CC36200094C47 /* LPStatusBarBackgroundColor */ = {
+			isa = PBXGroup;
+			children = (
+				3C4916531C3CC40A00094C47 /* LPStatusBarBackgroundColor */,
+				3C49163C1C3CC36200094C47 /* AppDelegate.swift */,
+				3C4916561C3CC45D00094C47 /* NavigationController.swift */,
+				3C49163E1C3CC36200094C47 /* ViewController.swift */,
+				3C4916401C3CC36200094C47 /* Main.storyboard */,
+				3C4916431C3CC36200094C47 /* Assets.xcassets */,
+				3C4916451C3CC36200094C47 /* LaunchScreen.storyboard */,
+				3C4916481C3CC36200094C47 /* Info.plist */,
+			);
+			path = LPStatusBarBackgroundColor;
+			sourceTree = "<group>";
+		};
+		3C4916531C3CC40A00094C47 /* LPStatusBarBackgroundColor */ = {
+			isa = PBXGroup;
+			children = (
+				3C4916541C3CC40A00094C47 /* UINavigationBar+StatusBarColor.swift */,
+			);
+			path = LPStatusBarBackgroundColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4916381C3CC36200094C47 /* LPStatusBarBackgroundColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C49164B1C3CC36200094C47 /* Build configuration list for PBXNativeTarget "LPStatusBarBackgroundColor" */;
+			buildPhases = (
+				3C4916351C3CC36200094C47 /* Sources */,
+				3C4916361C3CC36200094C47 /* Frameworks */,
+				3C4916371C3CC36200094C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPStatusBarBackgroundColor;
+			productName = LPStatusBarBackgroundColor;
+			productReference = 3C4916391C3CC36200094C47 /* LPStatusBarBackgroundColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4916311C3CC36200094C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "litt1e-p";
+				TargetAttributes = {
+					3C4916381C3CC36200094C47 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C4916341C3CC36200094C47 /* Build configuration list for PBXProject "LPStatusBarBackgroundColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4916301C3CC36200094C47;
+			productRefGroup = 3C49163A1C3CC36200094C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4916381C3CC36200094C47 /* LPStatusBarBackgroundColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4916371C3CC36200094C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4916471C3CC36200094C47 /* LaunchScreen.storyboard in Resources */,
+				3C4916441C3CC36200094C47 /* Assets.xcassets in Resources */,
+				3C4916421C3CC36200094C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4916351C3CC36200094C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4916551C3CC40A00094C47 /* UINavigationBar+StatusBarColor.swift in Sources */,
+				3C4916571C3CC45D00094C47 /* NavigationController.swift in Sources */,
+				3C49163F1C3CC36200094C47 /* ViewController.swift in Sources */,
+				3C49163D1C3CC36200094C47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C4916401C3CC36200094C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4916411C3CC36200094C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4916451C3CC36200094C47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4916461C3CC36200094C47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4916491C3CC36200094C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C49164A1C3CC36200094C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C49164C1C3CC36200094C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPStatusBarBackgroundColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litt1e-p.LPStatusBarBackgroundColor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C49164D1C3CC36200094C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPStatusBarBackgroundColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litt1e-p.LPStatusBarBackgroundColor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4916341C3CC36200094C47 /* Build configuration list for PBXProject "LPStatusBarBackgroundColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4916491C3CC36200094C47 /* Debug */,
+				3C49164A1C3CC36200094C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C49164B1C3CC36200094C47 /* Build configuration list for PBXNativeTarget "LPStatusBarBackgroundColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C49164C1C3CC36200094C47 /* Debug */,
+				3C49164D1C3CC36200094C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4916311C3CC36200094C47 /* Project object */;
+}
