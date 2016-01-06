@@ -5,6 +5,10 @@ Change UIStatusBar backgroundColor dynamically which made via runtime &amp; swif
 # Usage
 
 ```swift
+pod 'LPStatusBarBackgroundColor-swift', '~> 1.0.0'
+```
+
+```swift
 /** in navigationController */
 self.navigationBar.statusBarBackgroundColor = UIColor.blackColor() //any color you want
 /** in navigationController's rootViewController */
