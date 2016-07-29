@@ -35,7 +35,7 @@ public extension UINavigationBar
         }
         
         dispatch_once(&Static.token) {
-            let originalSelector = #selector(UIView.layoutSubviews)
+            let originalSelector = #selector(UINavigationBar.layoutSubviews)
             let swizzledSelector = #selector(UINavigationBar.swizzled_layoutSubviews)
             
             let originalMethod = class_getInstanceMethod(self, originalSelector)
