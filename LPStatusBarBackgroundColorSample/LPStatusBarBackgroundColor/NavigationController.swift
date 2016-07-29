@@ -15,13 +15,13 @@ class NavigationController: UINavigationController {
         
         self.navigationBar.statusBarBackgroundColor = UIColor.blackColor()
         
-        let barSize: CGSize = CGSizeMake(self.navigationBar.frame.size.width, 44)
-        self.navigationBar.setBackgroundImage(self.imageWithColor(UIColor.purpleColor(), andSize: barSize), forBarPosition: UIBarPosition.Any, barMetrics: UIBarMetrics.Default)
+        var barSize: CGSize = CGSizeMake(self.navigationBar.frame.size.width, 44)
+        self.navigationBar.setBackgroundImage(self.imageWithColor(UIColor.purpleColor(), andSize: &barSize), forBarPosition: UIBarPosition.Any, barMetrics: UIBarMetrics.Default)
         
         self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
     
-    func imageWithColor(color: UIColor, var andSize imageSize: CGSize) -> UIImage {
+    func imageWithColor(color: UIColor, inout andSize imageSize: CGSize) -> UIImage {
         if CGSizeEqualToSize(imageSize, CGSizeZero) {
             imageSize = CGSizeMake(1, 1)
         }
