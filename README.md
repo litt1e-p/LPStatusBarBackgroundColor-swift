@@ -17,6 +17,12 @@ Objective C version is [here](https://github.com/litt1e-p/LPStatusBarBackgroundC
 //import
 import LPStatusBarBackgroundColor_swift
 
+//set navigationBar's backgroundImage with height 44
+
+navigationController!.navigationBar.setBackgroundImage(UIImage.imageWithColor(yourColor, size: CGSizeMake(
+UIScreen.mainScreen().bounds.size.width
+, 44)), forBarPosition: UIBarPosition.Any, barMetrics: UIBarMetrics.Default)
+
 /** in navigationController */
 self.navigationBar.statusBarBackgroundColor = UIColor.blackColor() //any color you want
 
