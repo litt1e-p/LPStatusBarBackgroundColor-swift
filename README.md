@@ -14,8 +14,12 @@ Objective C version is [here](https://github.com/litt1e-p/LPStatusBarBackgroundC
 # Usage
 
 ```swift
+//import
+import LPStatusBarBackgroundColor_swift
+
 /** in navigationController */
 self.navigationBar.statusBarBackgroundColor = UIColor.blackColor() //any color you want
+
 /** in navigationController's rootViewController */
 self.navigationController?.navigationBar.statusBarBackgroundColor = UIColor.brownColor //any color you want
 ```
